@@ -48,3 +48,4 @@ encoded = btoa(XXTEA.toBinary(str));
 console.log('typescript btoa encode: ', encoded);
 decoded = XXTEA.fromBinary(atob(encoded));
 console.log('typescript atob decode: ', decoded);
+

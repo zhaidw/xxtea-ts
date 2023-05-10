@@ -6,6 +6,24 @@ XXTEA 是一个快速安全的加密算法。本项目是 XXTEA 加密算法的 
 
 它不同于原始的 XXTEA 加密算法。它是针对字符串类型数据进行加密的，而不是针对 uint32 数组。同样，密钥也是字符串类型。
 
+## 准备运行环境
+
+从官网 https://nodejs.org/en/download 安装 LTS Version: 18.16.0 (includes npm 9.5.1)
+
+如果使用zip包，则安装完成后，比如安装路径是 D:\app\node-18.16.0 则需要把路径加入环境变量 PATH 中
+
+设置完成后，新开cmd窗口，执行如下命令：
+
+```shell
+npm install -g typescript
+tsc -v
+
+```
+如果输出 Version 5.0.4 , 表示 TypeScript 环境安装好了。
+
+运行命令请参考 test.cmd
+
+
 ## 使用
 
 ```typescript

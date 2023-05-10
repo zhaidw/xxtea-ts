@@ -1,0 +1,8 @@
+#!/bin/sh
+NODE_HOME=/d/app/node-18.16.0
+$NODE_HOME/ts-node XXTEATest.ts
+
+
+
+
+

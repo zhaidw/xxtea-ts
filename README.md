@@ -7,6 +7,21 @@ XXTEA is a fast and secure encryption algorithm. This is a XXTEA library for Typ
 
 It is different from the original XXTEA encryption algorithm. It encrypts and decrypts String instead of uint32 Array, and the key is also String.
 
+
+## Prepare TypeScript Env
+
+install Latest LTS Version: 18.16.0 (includes npm 9.5.1) from https://nodejs.org/en/download
+then:
+
+```shell
+npm install -g typescript
+tsc -v
+
+```
+if result Version 5.0.4 , then env is ok.
+
+
+
 ## Usage
 
 ```typescript
