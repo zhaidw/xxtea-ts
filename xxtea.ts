@@ -1,6 +1,6 @@
 /**********************************************************\
 |                                                          |
-| xxtea.ts                                                 |
+| XXTEA.ts                                                 |
 |                                                          |
 | XXTEA encryption algorithm library for TypeScript.       |
 |                                                          |

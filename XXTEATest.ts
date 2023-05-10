@@ -1,6 +1,6 @@
 /**********************************************************\
 |                                                          |
-| xxtea_test.ts                                            |
+| XXTEATest.ts                                            |
 |                                                          |
 | XXTEA encryption test code for TypeScript.               |
 |                                                          |

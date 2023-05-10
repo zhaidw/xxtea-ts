@@ -9,7 +9,8 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
 
 ## Usage
 
-```html
+```typescript
+
 import XXTEA from "./XXTEA";
 
 let str: string = "Hello World! 你好，中国🇨🇳！";
@@ -29,6 +30,5 @@ console.log("encrypt to binary: " + encrypt_data);
 decrypt_data = XXTEA.decrypt(encrypt_data, key);
 console.log("decrypt from binary: " + decrypt_data);
 console.log("decrypt from binary success: " + (str === decrypt_data));
-
 
 ```
